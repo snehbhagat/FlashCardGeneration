@@ -1,4 +1,4 @@
-# 🧠 FlashCard Generator
+# FlashCard Generator
 
 **AI-Powered Flashcard Generation for Smarter Learning**
 
@@ -9,35 +9,35 @@ Transform any topic into personalized study cards in seconds using advanced AI t
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
-## ✨ Features
+## Features
 
-### 🎯 **AI-Powered Generation**
+### **AI-Powered Generation**
 - **Smart Content Creation**: Generate educational flashcards using Groq's LLaMA 3.1 70B model
 - **Difficulty Levels**: Choose from Easy, Medium, or Hard difficulty levels
 - **Customizable Count**: Generate 5, 10, or 20 cards per topic
 - **Educational Quality**: AI creates pedagogically sound questions with proper difficulty scaling
 
-### 🎨 **Beautiful User Experience**
+### **User Experience**
 - **Modern UI**: Clean, student-friendly interface with smooth animations
 - **Interactive Flashcards**: 3D flip animations with keyboard navigation
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **Study-Focused**: Distraction-free learning environment
 
-### 📚 **Smart Study Features**
+### **Study Features**
 - **Progress Tracking**: Mark cards as known/unknown
 - **Deck Management**: Organize flashcards into topics
 - **Search & Filter**: Find specific decks quickly
 - **Local Storage**: All data persists locally (no account required)
 - **Spaced Repetition Ready**: Built-in support for future SRS implementation
 
-### 🔧 **Production-Ready Architecture**
+### **Production-Ready Architecture**
 - **Rate Limiting**: Prevents API abuse (20 requests/minute)
 - **Error Handling**: Graceful fallbacks and retry logic
 - **Health Monitoring**: Built-in service health checks
 - **Type Safety**: Full TypeScript coverage
 - **Structured Output**: Consistent AI responses using Zod validation
 
-## 🚀 Quick Start
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -79,14 +79,14 @@ Transform any topic into personalized study cards in seconds using advanced AI t
 5. **Open your browser**
    Navigate to `http://localhost:8080`
 
-### 🧪 Test the API
+### Testing the API
 
 Run the included test script to verify everything works:
 ```bash
 node test-api.js
 ```
 
-## 📖 Usage
+## Usage
 
 ### Creating Flashcards
 1. **Enter a topic** (e.g., "Photosynthesis", "World War II", "React Hooks")
@@ -109,7 +109,7 @@ node test-api.js
 - **Rename decks**: Click "Rename" to customize deck titles
 - **Delete decks**: Remove unwanted study materials
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend (`src/`)
 ```
@@ -168,7 +168,7 @@ server/
 - Custom educational prompts
 - Retry logic with exponential backoff
 
-## 🔗 API Endpoints
+## API Endpoints
 
 ### `POST /api/flashcards/generate`
 Generate flashcards for a topic.
@@ -221,7 +221,7 @@ Check service health status.
 }
 ```
 
-## 🎯 Advanced Features
+## Advanced Features
 
 ### Intelligent Prompt Engineering
 The AI uses carefully crafted prompts that:
@@ -242,7 +242,7 @@ The AI uses carefully crafted prompts that:
 - **Optimistic Updates**: UI updates immediately
 - **Memory Management**: Automatic cleanup of rate limit data
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 ```
@@ -273,7 +273,7 @@ GROQ_MODEL=llama-3.1-70b-versatile
 MAX_REQUESTS_PER_MINUTE=20
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -281,11 +281,11 @@ MAX_REQUESTS_PER_MINUTE=20
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Groq](https://groq.com/) for fast AI inference
 - [LangChain](https://langchain.com/) for LLM orchestration
@@ -293,15 +293,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [Lucide](https://lucide.dev/) for beautiful icons
 
-## 📞 Support
+## Support
 
 If you have questions or need help:
-- 🐛 [Report bugs](https://github.com/snehbhagat/FlashCardGeneration/issues)
-- 💡 [Request features](https://github.com/snehbhagat/FlashCardGeneration/issues)
-- 📖 [Read the docs](https://github.com/snehbhagat/FlashCardGeneration/wiki)
+- [Report bugs](https://github.com/snehbhagat/FlashCardGeneration/issues)
+- [Request features](https://github.com/snehbhagat/FlashCardGeneration/issues)
+- [Read the docs](https://github.com/snehbhagat/FlashCardGeneration/wiki)
 
 ---
 
-**Made with ❤️ for students everywhere**
-
-*Transform your learning with AI-powered flashcards!*
+**Transform your learning with AI-powered flashcards**
